@@ -1,33 +1,27 @@
-import Sidebar from "./components/sidebar";
-import Header from "./components/header";
-
+import Main from "./Dashboard-components/Main/main"
+import SideMain from "./Dashboard-components/Main/sidemain"
 
 export default async function Dashboard() {
- 
-    await new Promise((resolve) => {
-setTimeout(() => {
-    resolve("intentional delay");
+
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("intentional delay");
     }, 1000);
-    });
+  });
 
 
-    return (
-        <main className="w-full h-screen flex">
+  return (
+    <div className="w-full h-full flex">
 
-            <Sidebar />
+      <div className="h-full w-[70%] ">
+          <Main />
+      </div>
 
-            <div className="flex-1 h-full flex flex-col">
 
-                <div className="w-full h-[10%] ">
 
-                    <Header />
-                </div>
-
-                <div className="w-full h-[90%] ">
-
-                </div>
-
-            </div>
-        </main>
-    );
+      <div className="h-full w-[30%] ">
+          <SideMain />
+      </div>
+    </div>
+  );
 }
