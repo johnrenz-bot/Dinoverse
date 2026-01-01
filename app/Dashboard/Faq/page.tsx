@@ -1,5 +1,7 @@
 "use client";
 
+import News from '../Dashboard-components/Main/news'
+
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -77,7 +79,7 @@ export default function Faq() {
                             }`}
                         onClick={() => setTab("static")}
                     >
-                         FAQs
+                        FAQs
                     </button>
                     <button
                         className={`px-4 py-2 rounded-md font-medium ${tab === "dino" ? "bg-green-600 text-white" : "bg-zinc-800 text-white"
@@ -135,6 +137,10 @@ export default function Faq() {
                     </div>
                 ))}
             </div>
+
+             <div className="w-full p-2 bg-neutral-900 border-zinc-700 border">
+                                <News />
+                            </div>
         </div>
     );
 }

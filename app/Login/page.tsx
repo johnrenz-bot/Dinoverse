@@ -44,8 +44,11 @@ export default async function Login() {
                     <Link href="/Login/ForgetPassword" className="text-xs text-gray-400 hover:text-green-400 self-end transition">
                         Forgot password?
                     </Link>
-
-                    <button className="w-full py-3 rounded-md border border-neutral-600 hover:border-green-700 hover:text-green-400 transition">
+                    <button
+                        disabled
+                        className="w-full py-3 rounded-md border border-neutral-600 
+             text-neutral-500 cursor-not-allowed opacity-60"
+                    >
                         Login
                     </button>
 

@@ -16,6 +16,12 @@ export default function DashboardSideMain() {
             href: "/Dashboard/Faq"
         },
         {
+            name: "Dino Community",
+            description: "Join, share facts, stay respectful, and have fun!",
+            href: "/Dashboard/Community"
+        },
+
+        {
             name: "Interactive Map",
             description: "Locate prehistoric habitats and learn about dinosaur regions"
         },
