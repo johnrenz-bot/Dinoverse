@@ -12,8 +12,8 @@ type Dinosaur = {
 };
 
 const omnivores: Dinosaur[] = [
-    { id: 1, name: "Oviraptor", type: "Omnivore", image: "/image/oviraptor.jpg" },
-    { id: 2, name: "Therizinosaurus", type: "Omnivore", image: "/image/therizinosaurus.jpg" },
+    { id: 1, name: "Oviraptor", type: "Omnivore", image: "/Image/oviraptor.jpg" },
+    { id: 2, name: "Therizinosaurus", type: "Omnivore", image: "/Image/therizinosaurus.jpg" },
 ];
 
 export default function Omnivore() {
