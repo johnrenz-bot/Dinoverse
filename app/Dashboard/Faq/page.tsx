@@ -126,7 +126,7 @@ export default function Faq() {
                                     <div className="flex-1 whitespace-pre-line">{faq.answer}</div>
                                     {faq.image && (
                                         <img
-                                            src={faq.image}
+                                            src={faq.Image}
                                             alt={faq.question}
                                             className="w-full max-w-xs rounded-lg object-cover self-start"
                                         />
