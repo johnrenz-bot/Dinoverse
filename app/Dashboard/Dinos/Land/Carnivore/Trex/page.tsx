@@ -20,7 +20,7 @@ export default function Trex() {
 
         <div className="relative max-w-md w-full">
           <img
-            src="/image/trexx.jpg"
+            src="/Image/trexx.jpg"
             alt="Tyrannosaurus Rex"
             className="w-full h-full object-cover rounded-lg"
           />
