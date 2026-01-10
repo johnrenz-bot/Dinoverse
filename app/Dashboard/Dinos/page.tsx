@@ -38,7 +38,7 @@ const placeData: CardProps[] = [
         title: "Sea",
         description: "Aquatic reptiles that lived and hunted in ancient oceans.",
         href: "#",
-        image: "/Image/Sea.jpg",
+        image: "/Image/sea.jpg",
     },
 ];
 
