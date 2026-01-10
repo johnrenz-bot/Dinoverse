@@ -19,7 +19,7 @@ export default function Spinosaurus() {
 
         <div className="relative max-w-md w-full">
           <img
-            src="/image/Spinosaurus.jpg"
+            src="/Image/Spinosaurus.jpg"
             alt="Spinosaurus"
             className="w-full h-full object-cover rounded-lg"
           />
