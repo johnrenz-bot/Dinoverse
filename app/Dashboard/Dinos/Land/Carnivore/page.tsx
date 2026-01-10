@@ -118,7 +118,7 @@ export default function Carnivore() {
 
                             {dino.image && (
                                 <img
-                                    src={dino.image}
+                                    src={dino.Image}
                                     alt={dino.name}
                                     className="w-full h-full object-cover"
                                 />
@@ -126,7 +126,7 @@ export default function Carnivore() {
 
                             <div className="absolute bottom-2 right-2 z-10 border p-2 bg-zinc-800 border-neutral-700 rounded-md hover:bg-green-700 transition">
                                 <img
-                                    src="/image/meat.png"
+                                    src="/Image/meat.png"
                                     alt="Meat"
                                     className="w-5 h-5 transition-transform duration-300 group-hover:scale-125"
                                 />
