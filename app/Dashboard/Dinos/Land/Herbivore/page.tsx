@@ -13,8 +13,8 @@ type Dinosaur = {
 
 // Only 2 herbivores
 const herbivores: Dinosaur[] = [
-    { id: 1, name: "Triceratops", type: "Herbivore", image: "/image/triceratops.jpg" },
-    { id: 2, name: "Brachiosaurus", type: "Herbivore", image: "/image/brachiosaurus.jpg" },
+    { id: 1, name: "Triceratops", type: "Herbivore", image: "/Image/triceratops.jpg" },
+    { id: 2, name: "Brachiosaurus", type: "Herbivore", image: "/Image/brachiosaurus.jpg" },
 ];
 
 export default function Herbivore() {
