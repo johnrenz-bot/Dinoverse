@@ -118,7 +118,7 @@ export default function Carnivore() {
 
                             {dino.image && (
                                 <img
-                                    src={dino.Image}
+                                    src={dino.image}
                                     alt={dino.name}
                                     className="w-full h-full object-cover"
                                 />
