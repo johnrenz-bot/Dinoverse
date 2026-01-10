@@ -23,7 +23,7 @@ export default function NewsFeed() {
                 date: "2025-12-24",
                 description:
                     "Jurassic World: Chaos Theory – Music from the Original Series (featuring music from seasons 2-4) by Leo Birenberg is now available! The first album (released in 2024) featured music from Season 1, and this new album features 37 tracks of music from seasons 2 through the fourth and final season. Both albums are streaming now on all music platforms.",
-                image: "/image/1.png",
+                image: "/Image/1.png",
             },
             {
                 id: 2,
@@ -32,7 +32,7 @@ export default function NewsFeed() {
                 date: "2025-10-30",
                 description:
                     "Jurassic World Rebirth and the entire Jurassic franchise are now streaming on Peacock! The seventh film in the series finds its exclusive streaming home four months after its release and the other six films in the Jurassic story are now finally available to stream there as well.",
-                image: "/image/2.png",
+                image: "/Image/2.png",
             },
             {
                 id: 3,
@@ -41,7 +41,7 @@ export default function NewsFeed() {
                 date: "2025-10-21",
                 description:
                     "The third entry in the Jurassic World Evolution video game series has arrived! Check out the launch trailer below: Will you be playing?",
-                image: "/image/3.png",
+                image: "/Image/3.png",
             },
             {
                 id: 4,
@@ -50,7 +50,7 @@ export default function NewsFeed() {
                 date: "2025-09-18",
                 description:
                     "The upcoming final season of Jurassic World: Chaos Theory will hit Netflix November 20th! The first teaser is out today, the five year anniversary of Jurassic World: Camp Cretaceous‘ debut on Netflix, and it’s a tribute to the entire Nublar Six story from beginning to end.",
-                image: "/image/4.png",
+                image: "/Image/4.png",
             },
             {
                 id: 5,
@@ -59,7 +59,7 @@ export default function NewsFeed() {
                 date: "2025-09-10",
                 description:
                     "Orbx, in collaboration with Universal Products & Experiences, has officially released Jurassic World: Archipelago, a brand-new expansion for Microsoft Flight Simulator 2024, inspired by the Universal Pictures and Amblin Entertainment films. Available now on PC via OrbxDirect, the add-on brings cinematic storytelling and scenic flying to the sim world.",
-                image: "/image/5.png",
+                image: "/Image/5.png",
             },
         ];
         setNews(data);
@@ -80,7 +80,7 @@ export default function NewsFeed() {
                                 alt={item.title}
                                 className="w-full md:w-80 h-48 md:h-auto object-cover flex-shrink-0"
                                 onError={(e) => {
-                                    e.currentTarget.src = "/images/placeholder.jpg";
+                                    e.currentTarget.src = "/Images/placeholder.jpg";
                                 }}
                             />
                         )}
