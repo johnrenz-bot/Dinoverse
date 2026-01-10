@@ -8,11 +8,11 @@ import { Protest_Revolution } from "next/font/google";
 const protestRevolution = Protest_Revolution({ subsets: ["latin"], weight: "400" });
 
 const features = [
-    { name: "Dinosaur Gallery", description: "Explore detailed dinosaur images", href: "/Dashboard/Dinos", image: "/image/trexx.jpg" },
-    { name: "T-rex 3D", description: "View the T-rex in 3D", href: "/Dashboard/Dinos/Trex-3D", image: "/image/trex.png" },
-    { name: "Dino FAQ's & News Feed", description: "Latest dinosaur trivia", href: "/Dashboard/Faq", image: "/image/faq.jpg" },
-    { name: "Dinosaur Community", description: "Connect with enthusiasts", href: "/Dashboard/Community", image: "/image/faq.jpg" },
-    { name: "??? Secret Dino", description: "Discover the unknown!", href: "/Dashboard/SecretDino", image: "/image/secret.jpg" }
+    { name: "Dinosaur Gallery", description: "Explore detailed dinosaur images", href: "/Dashboard/Dinos", image: "/Image/trexx.jpg" },
+    { name: "T-rex 3D", description: "View the T-rex in 3D", href: "/Dashboard/Dinos/Trex-3D", image: "/Image/trex.png" },
+    { name: "Dino FAQ's & News Feed", description: "Latest dinosaur trivia", href: "/Dashboard/Faq", image: "/Image/faq.jpg" },
+    { name: "Dinosaur Community", description: "Connect with enthusiasts", href: "/Dashboard/Community", image: "/Image/faq.jpg" },
+    { name: "??? Secret Dino", description: "Discover the unknown!", href: "/Dashboard/SecretDino", image: "/Image/secret.jpg" }
 ];
 
 export default function DashboardMain() {
@@ -29,7 +29,7 @@ export default function DashboardMain() {
 
     return (
         <div className="w-full h-full text-white p-6">
-            <div className="relative w-full h-[25vh] mb-6 rounded-xl p-6 flex flex-col justify-center shadow-lg bg-cover bg-center border-2 border-neutral-700" style={{ backgroundImage: "url('/image/eye.jpg')" }}>
+            <div className="relative w-full h-[25vh] mb-6 rounded-xl p-6 flex flex-col justify-center shadow-lg bg-cover bg-center border-2 border-neutral-700" style={{ backgroundImage: "url('/Image/eye.jpg')" }}>
                 <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-black via-zinc-800/60 to-black" />
                 <div className="relative z-10">
                     <h1 className="text-3xl font-extrabold">
