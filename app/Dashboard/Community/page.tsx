@@ -26,7 +26,7 @@ const posts: Post[] = [
   {
     id: 1,
     title: "blah blah",
-    image: "/image/trexx.jpg",
+    image: "/Image/trexx.jpg",
     settings: [BsThreeDots],
     icons: [CiHeart, FaRegComment, CiShare1],
   },
