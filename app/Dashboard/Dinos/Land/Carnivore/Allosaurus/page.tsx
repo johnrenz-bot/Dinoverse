@@ -19,7 +19,7 @@ export default function Allosaurus() {
 
         <div className="relative max-w-md w-full">
           <img
-            src="/image/Allosaurus.jpg"
+            src="/Image/Allosaurus.jpg"
             alt="Allosaurus"
             className="w-full h-full object-cover rounded-lg"
           />
