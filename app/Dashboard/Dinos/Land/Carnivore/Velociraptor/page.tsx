@@ -19,7 +19,7 @@ export default function Velociraptor() {
 
         <div className="relative max-w-md w-full">
           <img
-            src="/image/Velociraptor.jpg"
+            src="/Image/Velociraptor.jpg"
             alt="Velociraptor"
             className="w-full h-full object-cover rounded-lg"
           />
